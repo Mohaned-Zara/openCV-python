@@ -14,4 +14,7 @@ cv.imshow("Display_BGR",img_BGR)
 cv.imshow("Display_image as is", img_original)
 cv.imshow("Display_GrayScale", img_Gray)
 
+cv.imwrite("Resources\Photos\Display_BGR.jpg",img_BGR)
+cv.imwrite("Resources\Photos\Display_image_as_is.jpg", img_original)
+cv.imwrite("Resources\Photos\Display_GrayScale.jpg", img_Gray)
 cv.waitKey(0)
